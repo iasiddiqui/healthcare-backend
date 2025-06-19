@@ -48,8 +48,11 @@ Create a `.env` file in the root directory and add:
 
 ```
 PORT=5000
-DATABASE_URL=postgres://your_pg_user:your_pg_password@localhost:5432/your_db_name
-JWT_SECRET=your_secret_key
+JWT_SECRET=your_jwt_secret_key
+DB_NAME=Your_DB_Name
+DB_USER=Your_User_Name
+DB_PASSWORD=Your_password
+DB_HOST=localhost
 ```
 
 > Replace `your_pg_user`, `your_pg_password`, and `your_db_name` with your PostgreSQL credentials.
